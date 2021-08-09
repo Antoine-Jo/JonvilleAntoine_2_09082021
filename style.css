@@ -46,6 +46,7 @@ a {
 }
 
 .activites {
+    margin-left: -4px;
     padding: 30px;
     text-decoration: none;
 }
@@ -58,5 +59,48 @@ a {
 .sign_up {
     padding: 20px 10px 0 10px;
     color: #0065fc;
+}
+
+.search {
+    margin-top: 40px;
+}
+
+.search_title {
+    margin-bottom: 10px;
+}
+
+.search_form {
+    display: inline-flex;
+    margin: 20px 0 30px 0;
+    height: 50px;
+}
+
+.search_icon {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+}
+
+.search_input {
+    border-left: none;
+    border-right: none;
+    width: 256px;
+    height: 50px;
+    border: 1px solid #f2f2f2;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.search_button {
+    font-size: 20px;
+    background: #0065fc;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    cursor: pointer;
 }
 
