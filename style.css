@@ -6,4 +6,57 @@
 
 body {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 1440px;
+    color: black;
+    padding: 0 32px;
+    padding-bottom: 0;
 }
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+}
+
+.header_logo {
+    padding-top: 20px;
+}
+
+.header_link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_nav {
+    padding: 20px 10px 0 10px;
+}
+
+.hebergement {
+    border-top: 3px solid #0065fc;
+    padding: 30px;
+    color: #0065fc;
+}
+
+.activites {
+    padding: 30px;
+    text-decoration: none;
+}
+
+.header_nav a:hover {
+    border-top: 3px solid #0065fc;
+    color: #0065fc;
+}
+
+.sign_up {
+    padding: 20px 10px 0 10px;
+    color: #0065fc;
+}
+
