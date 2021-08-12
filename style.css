@@ -248,9 +248,9 @@ a {
 }
 
 .showmore {
-    width: 13%;
+    width: 14%;
     font-weight: bold;
-    padding: 30px 0 40px 30px;
+    padding: 10px 0 10px 30px;
 }
 
 .showmore:hover {
@@ -264,14 +264,13 @@ a {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .most_popular_title {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 40px 20px 20px 30px;
 }
 
 .most_popular_title i {
@@ -279,31 +278,39 @@ a {
     font-size: 22px;
 }
 
-.most_popular_card {
+.most_popular_bloc {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.popular_card {
     display: inline-flex;
     width: 90%;
     height: 150px;
     background: #fff;
     border-radius: 20px;
-    margin: 0 20px 20px 20px;
+    margin: 20px;
     box-shadow: 0px 0px 6px 0px #0000002e;
 }
 
-.most_popular_card:hover {
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: ease 0.4s;
-}
-
-.most_popular_card img {
+.popular_card img {
     width: 40%;
-    object-fit: cover;
-    border-radius: 20px 0 0 20px;
     padding: 5px;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
 }
 
-.most_popular_star {
-    padding-top: 40px;
+.card_title_text span {
+    font-weight: bold;
+}
+
+.text_stars {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* Mise en place Section Activités */
 #activity {
@@ -450,5 +457,39 @@ a {
   .footer-assistance {
     margin-right: 20%;
   }
+
+  /* RESPONSIVE  */
+
+  @media screen and (max-width: 1440px) {
+      #hosting {
+          display: flex;
+          flex-direction: column-reverse;
+      }
+
+      .hosting {
+          width: 100%;
+      }
+
+      .most_popular {
+          width: 100%;
+          margin-bottom: 30px;
+      }
+
+      .most_popular_bloc {
+          display: flex;
+         
+      }
+
+      .most_popular_card {
+          height: 160px;
+      }
+
+      .hosting_text {
+          margin: 10px 20px 10px 20px;
+
+      }
+
+  }
+
 
 
