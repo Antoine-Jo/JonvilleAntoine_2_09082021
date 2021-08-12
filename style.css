@@ -1,9 +1,10 @@
+/* Mise à zéro de la page html */
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+/* Configuration du body */
 body {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     margin: auto;
@@ -17,7 +18,7 @@ a {
     text-decoration: none;
     color: initial;
 }
-
+/* Mise en place du header */
 .header {
     width: 100%;
     height: auto;
@@ -61,7 +62,7 @@ a {
     color: #0065fc;
     font-weight: bold;
 }
-
+/* Mise en place de la partie recherche */
 .search {
     margin-top: 40px;
 }
@@ -104,7 +105,7 @@ a {
     border: none;
     cursor: pointer;
 }
-
+/* Mise en place de la section Filtres */
 #search_filters {
     display: flex;
     margin-top: 2rem;
@@ -174,7 +175,7 @@ a {
     margin-right: 1rem;
     color: #0065fc;
 }
-
+/* Mise en place Section Hébergements et + populaires */
 #hosting {
     display: inline-flex;
     width: 100%;
@@ -300,7 +301,7 @@ a {
 .most_popular_star {
     padding-top: 40px;
 }
-
+/* Mise en place Section Activités */
 #activity {
     width: 100%;
     height: auto;
@@ -407,7 +408,7 @@ a {
     transform: scale(1.03);
     transition: ease 0.4s;
 }
-
+/* Mise en place du Footer */
 .footer {
     width: 100%;
     background: #F2F2F2;
