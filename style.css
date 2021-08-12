@@ -105,6 +105,10 @@ a {
     border: none;
     cursor: pointer;
 }
+
+.search_btn_responsive {
+    display: none;
+}
 /* Mise en place de la section Filtres */
 #search_filters {
     display: flex;
@@ -149,7 +153,7 @@ a {
     align-items: center;
     justify-content: center;
     margin: -2px;
-    color: blue;
+    color: #0065fc;
 }
 
 .search_filters_title {
