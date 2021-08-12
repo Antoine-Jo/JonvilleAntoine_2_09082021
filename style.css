@@ -46,7 +46,7 @@ a {
 }
 
 .activites {
-    margin-left: -4px;
+    margin-left: -5px;
     padding: 30px;
     text-decoration: none;
 }
@@ -174,6 +174,85 @@ a {
     margin-right: 1rem;
     color: #0065fc;
 }
+
+#hosting {
+    width: 100%;
+    height: auto;
+}
+
+.hosting {
+    width: 70%;
+    height: auto;
+    background: #d9d9d9;
+    border-radius: 20px;
+}
+
+.hosting_title {
+    padding: 30px;
+}
+
+.hosting_cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 10px 0 30px;
+}
+
+.hosting_card {
+    width: 30%;
+    background: #f2f2f2;
+    border-radius: 20px;
+    margin: 0 20px 20px 0;
+    box-shadow: 0px 0px 6px 0px #0000002e;
+}
+
+.hosting_card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: ease 0.4s;
+}
+
+.hosting_card img {
+    width: 100%;
+    height: 170px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.hosting_text {
+    margin: 0 0 10px 20px;
+}
+
+.hosting_text_text {
+    padding: 5px 0;
+}
+
+.hosting_text_text span {
+    font-weight: bold;
+}
+
+.icon_full {
+    color: #0065fc;
+}
+
+.icon_empty {
+    color: #d9d9d9;
+}
+
+.showmore {
+    width: 13%;
+    /* cursor: pointer; */
+    font-weight: bold;
+    padding: 30px 0 40px 30px;
+}
+
+.showmore:hover {
+    cursor: pointer;
+    color: #0065fc;
+}
+
+
 
 
 
