@@ -566,7 +566,7 @@ a {
       }
       .search_btn_responsive {
           display: initial;
-          font-size: 30px;
+          font-size: 20px;
           width: 100px;
           color: #fff;
           background: #0065fc;
@@ -632,7 +632,7 @@ a {
       
 @media screen and (max-width: 425px) {
     .sign_up {
-        left: 200px;
+        left: 190px;
     }
 
     .search_input {
@@ -641,8 +641,9 @@ a {
         border-right: none;
     }
     .search_btn_responsive {
-        border-radius: 20px;
+        border-radius: 15px;
         width: 20%;
+        margin-left: -10px;
     }
 
     .popular_card {
