@@ -282,7 +282,6 @@ a {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    align-content: space-between;
 }
 
 .popular_card {
@@ -293,6 +292,12 @@ a {
     border-radius: 20px;
     margin: 20px;
     box-shadow: 0px 0px 6px 0px #0000002e;
+}
+
+.popular_card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: ease 0.4s;
 }
 
 .popular_card img {
@@ -461,7 +466,7 @@ a {
   /* RESPONSIVE  */
 
   @media screen and (max-width: 1440px) {
-      #hosting {
+      .hosting_bloc {
           display: flex;
           flex-direction: column-reverse;
       }
@@ -476,20 +481,174 @@ a {
       }
 
       .most_popular_bloc {
-          display: flex;
-         
-      }
-
-      .most_popular_card {
-          height: 160px;
-      }
-
-      .hosting_text {
-          margin: 10px 20px 10px 20px;
-
+          width: 100%;
+          display: inline-flex;
+          flex-direction: row;
       }
 
   }
+
+  @media  screen and (max-width: 1024px){
+      .hosting_card {
+          width: 40%;
+      }
+
+      .most_popular_bloc {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .activity_bloc {
+          display: flex;
+          flex-direction: column;
+          height: auto;
+          width: 100%;
+      }
+
+      .activity_card_big {
+          width: 100%;
+          height: 300px;
+          margin: 20px 0 40px 0;
+      }
+      .activity_card_big img {
+          height: 260px;
+      }
+
+      .activity_bloc_card {
+          width: 100%;
+          margin-bottom: 20px;
+      }
+      .activity_card_medium {
+          height: 300px;
+          margin-bottom: 40px;
+      }
+      .activity_card_medium img {
+          height: 260px;
+      }
+      .activity_card_medium h3 {
+          margin-top: -4px;
+      }
+      .activity_card_small {
+          height: 300px;
+      }
+      .activity_card_small img {
+          height: 260px;
+      }
+      .activity_card_small h3 {
+          margin-top: -4px;
+      }
+      .activity_card_middle1 {
+          height: 300px;
+      }
+      .activity_card_middle1 img {
+          height: 260px;
+      }
+      .activity_card_middle1 h3 {
+          margin-top: -4px;
+      }
+      .activity_card_middle2 {
+          height: 300px;
+      }
+      .activity_card_middle2 img {
+          height: 260px;
+      }
+      .activity_card_middle2 h3 {
+          margin-top: -4px;
+      } 
+  }
+
+  @media screen and (max-width: 768px) {
+      .search_form {
+          width: 100%;
+      }
+      .search_button {
+          display: none;
+      }
+      .search_btn_responsive {
+          display: initial;
+          font-size: 30px;
+          width: 100px;
+          color: #fff;
+          background: #0065fc;
+          border: none;
+          border-radius: 0 20px 20px 0;
+          padding: 10px;
+      }
+      
+  }
+
+  @media screen and (max-width: 580px) {
+      .bloc-footer {
+          flex-direction: column;
+      }
+
+      .hosting_cards {
+          flex-direction: column;
+          margin: 0 30px;
+      }
+      .hosting_card {
+          width: 100%;
+          
+      }
+
+      .header {
+          display: block;
+      }
+
+      .header_link {
+          width: 100%;
+          justify-content: left;
+          flex-wrap: wrap;
+      }
+      .sign_up {
+          order: -1;
+          position: relative;
+          bottom: 50px;
+          left: 300px;
+          width: 100%;
+      }
+      .header_nav {
+          display: flex;
+          width: 100%;
+      }
+      
+      .header_nav a:hover {
+          border-top: none;
+      }
+
+      .hebergement {
+          border-top: none;
+          border-bottom: 3px solid #0065fc;
+          width: 100%;
+      }
+      .activites {
+          border-bottom: 3px solid #f2f2f2;
+          width: 100%;
+      }
+      .activites:hover {
+          border-bottom: 3px solid #0065fc;
+      }
+}
+      
+@media screen and (max-width: 425px) {
+    .sign_up {
+        left: 200px;
+    }
+
+    .search_input {
+        font-size: 12px;
+        width: 70%;
+        border-right: none;
+    }
+    .search_btn_responsive {
+        border-radius: 20px;
+        width: 20%;
+    }
+
+    .popular_card {
+        height: 160px;
+    }
+}
 
 
 
