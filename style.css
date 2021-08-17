@@ -578,6 +578,7 @@ a {
   }
 
   @media screen and (max-width: 580px) {
+      
       .bloc-footer {
           flex-direction: column;
       }
@@ -605,7 +606,6 @@ a {
           position: relative;
           bottom: 50px;
           left: 300px;
-          width: 100%;
       }
       .header_nav {
           display: flex;
