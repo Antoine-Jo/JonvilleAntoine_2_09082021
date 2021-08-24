@@ -10,7 +10,7 @@ body {
     margin: auto;
     max-width: 1440px;
     color: black;
-    padding: 0 32px;
+    padding: 0 2rem;
     padding-bottom: 0;
 }
 
@@ -26,7 +26,7 @@ a {
 }
 
 .header_logo {
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .header_link {
@@ -37,18 +37,18 @@ a {
 }
 
 .header_nav {
-    padding: 20px 10px 0 10px;
+    padding: 1.25rem 0.625rem 0 0.625rem;
 }
 
 .hebergement {
     border-top: 3px solid #0065fc;
-    padding: 30px;
+    padding: 1.875rem;
     color: #0065fc;
 }
 
 .activites {
     margin-left: -5px;
-    padding: 30px;
+    padding: 1.875rem;
     text-decoration: none;
 }
 
@@ -58,50 +58,50 @@ a {
 }
 
 .sign_up {
-    padding: 20px 10px 0 10px;
+    padding: 1.25rem 0.625rem 0 0.625rem;
     color: #0065fc;
     font-weight: bold;
 }
 /* Mise en place de la partie recherche */
 .search {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .search_title {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .search_form {
     display: inline-flex;
-    margin: 20px 0 30px 0;
-    height: 50px;
+    margin: 1.25rem 0 1.875rem 0;
+    height: 3.125rem;
 }
 
 .search_icon {
     background: #f2f2f2;
-    padding: 20px;
-    border-radius: 20px 0 0 20px;
+    padding: 1.25rem;
+    border-radius: 1.25rem 0 0 1.25rem;
     text-align: center;
 }
 
 .search_input {
     border-left: none;
     border-right: none;
-    width: 256px;
-    height: 50px;
+    width: 16rem;
+    height: 3.125rem;
     border: 1px solid #f2f2f2;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 .search_button {
-    font-size: 20px;
+    font-size: 1.25rem;
     background: #0065fc;
     color: #fff;
-    width: 150px;
-    height: 50px;
-    border-radius: 0 20px 20px 0;
+    width: 9.375rem;
+    height: 3.125rem;
+    border-radius: 0 1.25rem 1.25rem 0;
     border: none;
     cursor: pointer;
 }
@@ -190,26 +190,26 @@ a {
     width: 70%;
     height: auto;
     background: #f2f2f2;
-    border-radius: 20px;
-    margin-right: 30px;
+    border-radius: 1.25rem;
+    margin-right: 1.875rem;
 }
 
 .hosting_title {
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .hosting_cards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 0 10px 0 30px;
+    margin: 0 0.625rem 0 1.875rem;
 }
 
 .hosting_card {
     width: 30%;
     background: #fff;
-    border-radius: 20px;
-    margin: 0 20px 20px 0;
+    border-radius: 1.25rem;
+    margin: 0 1.25rem 1.25rem 0;
     box-shadow: 0px 0px 6px 0px #0000002e;
 }
 
@@ -221,14 +221,14 @@ a {
 
 .hosting_card img {
     width: 100%;
-    height: 170px;
-    border-radius: 20px 20px 0 0;
+    height: 10.625rem;
+    border-radius: 1.25rem 1.25rem 0 0;
     object-fit: cover;
     padding: 5px;
 }
 
 .hosting_text {
-    margin: 0 0 10px 20px;
+    margin: 0 0 0.625rem 1.25rem;
 }
 
 .hosting_text_text {
@@ -250,7 +250,7 @@ a {
 .showmore {
     width: 14%;
     font-weight: bold;
-    padding: 10px 0 10px 30px;
+    padding: 0.625rem 0 0.625rem 1.875rem;
 }
 
 .showmore:hover {
@@ -261,7 +261,7 @@ a {
 .most_popular {
     width: 30%;
     background: #f2f2f2;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     display: flex;
     flex-direction: column;
 }
@@ -270,7 +270,7 @@ a {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 40px 20px 20px 30px;
+    padding: 2.5rem 1.25rem 1.25rem 1.875rem;
 }
 
 .most_popular_title i {
@@ -279,7 +279,7 @@ a {
 }
 
 .most_popular_bloc {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     display: flex;
     flex-direction: column;
 }
@@ -287,10 +287,10 @@ a {
 .popular_card {
     display: inline-flex;
     width: 90%;
-    height: 150px;
+    height: 9.375rem;
     background: #fff;
-    border-radius: 20px;
-    margin: 20px;
+    border-radius: 1.25rem;
+    margin: 1.25rem;
     box-shadow: 0px 0px 6px 0px #0000002e;
 }
 
@@ -303,7 +303,7 @@ a {
 .popular_card img {
     width: 40%;
     padding: 5px;
-    border-radius: 20px 0 0 20px;
+    border-radius: 1.25rem 0 0 1.25rem;
     object-fit: cover;
 }
 
@@ -312,7 +312,7 @@ a {
 }
 
 .text_stars {
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -324,15 +324,15 @@ a {
 }
 
 .activity_title {
-    margin: 40px 0 20px 0;
+    margin: 2.5rem 0 1.25rem 0;
 }
 
 .activity_bloc {
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
-    margin-bottom: 20px;
-    height: 445px;
+    margin-bottom: 1.25rem;
+    height: 27.8125rem;
 }
 
 .activity_card_big {
@@ -340,18 +340,18 @@ a {
     flex-direction: column;
     width: 23%;
     box-shadow: 0px 0px 6px 0px #0000002e;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
 }
 
 .activity_card_big img {
     width: 100%;
-    height: 390px;
+    height: 24.375rem;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .activity_card_title {
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .activity_bloc_card {
@@ -363,60 +363,60 @@ a {
 
 .activity_card_medium {
     width: 100%;
-    height: 235px;
+    height: 14.6875rem;
     box-shadow: 0px 0px 6px 0px #0000002e;
-    border-radius: 20px 20px 20px 20px;
-    margin-bottom: 40px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+    margin-bottom: 2.5rem;
 }
 
 .activity_card_medium img {
     width: 100%;
-    height: 180px;
+    height: 11.25rem;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .activity_card_small {
     width: 100%;
-    height: 165px;
+    height: 10.3125rem;
     box-shadow: 0px 0px 6px 0px #0000002e;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
 }
 
 .activity_card_small img {
     width: 100%;
     height: 110px;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .activity_card_middle1 {
     width: 100%;
-    height: 202px;
+    height: 12.625rem;
     box-shadow: 0px 0px 6px 0px #0000002e;
-    border-radius: 20px 20px 20px 20px;
-    margin-bottom: 40px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+    margin-bottom: 2.5rem;
 }
 
 .activity_card_middle1 img {
     width: 100%;
-    height: 145px;
+    height: 9.0625rem;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .activity_card_middle2 {
     width: 100%;
-    height: 202px;
+    height: 12.625rem;
     box-shadow: 0px 0px 6px 0px #0000002e;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
 }
 
 .activity_card_middle2 img {
     width: 100%;
-    height: 145px;
+    height: 9.0625rem;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .card:hover {
@@ -428,7 +428,7 @@ a {
 .footer {
     width: 100%;
     background: #F2F2F2;
-    margin-top: 60px;
+    margin-top: 3.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -441,18 +441,18 @@ a {
   }
 
   .footer-bloc {
-    padding: 32px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
   }
 
   .footer-title {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
   }
 
   .footer-link {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .footer-link:hover {
@@ -477,7 +477,7 @@ a {
 
       .most_popular {
           width: 100%;
-          margin-bottom: 30px;
+          margin-bottom: 1.875rem;
       }
 
       .most_popular_bloc {
@@ -507,50 +507,50 @@ a {
 
       .activity_card_big {
           width: 100%;
-          height: 300px;
-          margin: 20px 0 40px 0;
+          height: 18.75rem;
+          margin: 1.25rem 0 2.5rem 0;
       }
       .activity_card_big img {
-          height: 260px;
+          height: 16.25rem;
       }
 
       .activity_bloc_card {
           width: 100%;
-          margin-bottom: 20px;
+          margin-bottom: 1.25rem;
       }
       .activity_card_medium {
-          height: 300px;
-          margin-bottom: 40px;
+          height: 18.75rem;
+          margin-bottom: 2.5rem;
       }
       .activity_card_medium img {
-          height: 260px;
+          height: 16.25rem;
       }
       .activity_card_medium h3 {
           margin-top: -4px;
       }
       .activity_card_small {
-          height: 300px;
+          height: 18.75rem;
       }
       .activity_card_small img {
-          height: 260px;
+          height: 16.25rem;
       }
       .activity_card_small h3 {
           margin-top: -4px;
       }
       .activity_card_middle1 {
-          height: 300px;
+          height: 18.75rem;
       }
       .activity_card_middle1 img {
-          height: 260px;
+          height: 16.25rem;
       }
       .activity_card_middle1 h3 {
           margin-top: -4px;
       }
       .activity_card_middle2 {
-          height: 300px;
+          height: 18.75rem;
       }
       .activity_card_middle2 img {
-          height: 260px;
+          height: 16.25rem;
       }
       .activity_card_middle2 h3 {
           margin-top: -4px;
@@ -566,13 +566,13 @@ a {
       }
       .search_btn_responsive {
           display: initial;
-          font-size: 20px;
-          width: 100px;
+          font-size: 1.25rem;
+          width: 6.25rem;
           color: #fff;
           background: #0065fc;
           border: none;
-          border-radius: 0 20px 20px 0;
-          padding: 10px;
+          border-radius: 0 1.25rem 1.25rem 0;
+          padding: 0.625rem;
       }
       
   }
@@ -585,7 +585,7 @@ a {
 
       .hosting_cards {
           flex-direction: column;
-          margin: 0 30px;
+          margin: 0 1.875rem;
       }
       .hosting_card {
           width: 100%;
@@ -604,8 +604,8 @@ a {
       .sign_up {
           order: -1;
           position: relative;
-          bottom: 50px;
-          left: 300px;
+          bottom: 3.125rem;
+          left: 18.75rem;
       }
       .header_nav {
           display: flex;
@@ -632,7 +632,7 @@ a {
       
 @media screen and (max-width: 425px) {
     .sign_up {
-        left: 190px;
+        left: 11.875rem;
     }
 
     .search_input {
@@ -647,7 +647,7 @@ a {
     }
 
     .popular_card {
-        height: 160px;
+        height: 10rem;
     }
 }
 
