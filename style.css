@@ -21,47 +21,41 @@ a {
 /* Mise en place du header */
 .header {
     width: 100%;
-    height: auto;
-    display: inline-flex;
+    height: 90px;
+    display: grid;
+    grid-template-areas: "logo hebergement activite sign";
+    grid-template-columns: 6fr 1fr 1fr 1fr;
+    font-weight: 500;
 }
 
-.header_logo {
-    padding-top: 1.25rem;
-}
-
-.header_link {
-    width: 100%;
+header a {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
-.header_nav {
-    padding: 1.25rem 0.625rem 0 0.625rem;
+header img {
+    grid-area: logo;
+    align-self: center;
 }
 
 .hebergement {
-    border-top: 3px solid #0065fc;
-    padding: 1.875rem;
+    border-top: 2px solid #0065fc;
     color: #0065fc;
+    
 }
 
-.activites {
-    margin-left: -5px;
-    padding: 1.875rem;
-    text-decoration: none;
-}
-
-.header_nav a:hover {
-    border-top: 3px solid #0065fc;
+.activites:hover {
+    border-top: 2px solid #0065fc;
     color: #0065fc;
 }
 
 .sign_up {
-    padding: 1.25rem 0.625rem 0 0.625rem;
     color: #0065fc;
     font-weight: bold;
 }
+
+
 /* Mise en place de la partie recherche */
 .search {
     margin-top: 2.5rem;
@@ -489,6 +483,10 @@ a {
   }
 
   @media  screen and (max-width: 1024px){
+
+      .header {
+          grid-template-columns: 4fr 1fr 1fr 1fr;
+      }
       .hosting_card {
           width: 40%;
       }
@@ -496,6 +494,10 @@ a {
       .most_popular_bloc {
           display: flex;
           flex-direction: column;
+      }
+
+      .showmore {
+          width: 100%;
       }
 
       .activity_bloc {
@@ -558,6 +560,11 @@ a {
   }
 
   @media screen and (max-width: 768px) {
+
+      .header {
+          grid-template-columns: 3fr 1fr 1fr 1fr;
+      }
+
       .search_form {
           width: 100%;
       }
@@ -578,6 +585,22 @@ a {
   }
 
   @media screen and (max-width: 580px) {
+
+    body {
+        padding: 0;
+    }
+
+    .search {
+        padding: 32px;
+    }
+
+    .most_popular {
+        border-radius: 0;
+    }
+
+    .most_popular_title {
+        padding-left: 1.25rem;
+    }
       
       .bloc-footer {
           flex-direction: column;
@@ -592,48 +615,65 @@ a {
           
       }
 
+      .hosting {
+          border-radius: 0;
+          background: #fff;
+      }
+
+      .hosting_title {
+          padding-left: 1.25rem;
+      }
+
+      #activity {
+          padding: 24px;
+      }
+
       .header {
-          display: block;
-      }
+        width: 100%;
+        height: 10rem;
+        display: grid;
+        grid-template-areas: 
+        "logo sign" 
+        "hebergement activite";
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        font-weight: 500;
+    }
 
-      .header_link {
-          width: 100%;
-          justify-content: left;
-          flex-wrap: wrap;
-      }
-      .sign_up {
-          order: -1;
-          position: relative;
-          bottom: 3.125rem;
-          left: 18.75rem;
-      }
-      .header_nav {
-          display: flex;
-          width: 100%;
-      }
-      
-      .header_nav a:hover {
-          border-top: none;
-      }
+    header img {
+        padding-left: 40px;
+    }
 
-      .hebergement {
-          border-top: none;
-          border-bottom: 3px solid #0065fc;
-          width: 100%;
-      }
-      .activites {
-          border-bottom: 3px solid #f2f2f2;
-          width: 100%;
-      }
-      .activites:hover {
-          border-bottom: 3px solid #0065fc;
-      }
+    .sign_up {
+        justify-content: flex-end;
+        padding-right: 40px;
+    }
+
+    .hebergement {
+        grid-area: hebergement;
+        border-top: none;
+        border-bottom: 3px solid #0065fc;
+    }
+
+    .activites {
+        grid-area: activite;
+        border-bottom: 3px solid #d9d9d9;
+    }
+
+    .activites:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065fc;
+    }
+
+     
 }
       
 @media screen and (max-width: 425px) {
-    .sign_up {
-        left: 11.875rem;
+
+    body {
+        padding: 0;
     }
+
 
     .search_input {
         font-size: 12px;
