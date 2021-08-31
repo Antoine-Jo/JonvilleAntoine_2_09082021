@@ -5,6 +5,11 @@
     padding: 0;
 }
 /* Configuration du body */
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     margin: auto;
